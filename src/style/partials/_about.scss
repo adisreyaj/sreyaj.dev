@@ -1,0 +1,138 @@
+/*
+ * File: _about.scss
+ * Project: static-html-webpack-boilerplate
+ * Description:  
+ * File Created: Sunday, 9th February 2020 1:46:18 pm
+ * Author: Adithya Sreyaj
+ * -----
+ * Last Modified: Sunday, 9th February 2020 1:46:19 pm
+ * Modified By: Adithya Sreyaj<adithya@altorumleren.com>
+ * -----
+ */
+
+.about {
+  margin-bottom: 64px;
+  &__info {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    align-items: flex-start;
+  }
+  &__bio {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  &__avatar {
+    margin-right: 64px;
+    img {
+      border-radius: 4px;
+    }
+  }
+  &__description {
+    p {
+      max-width: 500px;
+      line-height: 1.5;
+      font-size: 15px;
+      color: $secondary-text;
+      letter-spacing: 1.5px;
+    }
+  }
+  &__skills {
+    padding: 32px 0;
+  }
+  &__skills-heading {
+    color: $accent;
+    margin-bottom: 24px;
+  }
+  .skills {
+    &__list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-flow: row wrap;
+      max-width: 96%;
+    }
+    &__list-item {
+      display: flex;
+      min-width: 180px;
+      max-width: 200px;
+      flex: 1 1 25%;
+      margin: 8px;
+      padding: 8px 16px;
+      border-radius: 4px;
+      background-color: rgba(rgb(0, 0, 0), 0.35);
+      justify-content: space-between;
+      align-items: center;
+      box-sizing: border-box;
+      box-shadow: 0px 0px 0px 1px $accent;
+      // &:hover {
+      //   .skills {
+      //     &-item {
+      //       &__icon {
+      //         img {
+      //           transition: all 0.3s ease-in-out;
+      //           transform: scale(1.1);
+      //           filter: none;
+      //         }
+      //       }
+      //       &__name {
+      //         color: $accent;
+      //       }
+      //     }
+      //   }
+      // }
+    }
+    &-item {
+      &__icon {
+        display: flex;
+        img {
+          width: 40px;
+          height: 40px;
+          // filter: grayscale(100%);
+        }
+      }
+      &__name {
+        font-family: 'Inconsolata', monospace;
+        color: #fff;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .about {
+    &__info {
+      flex-flow: column wrap;
+    }
+    &__avatar {
+      margin-right: 0px;
+      margin-bottom: 32px;
+    }
+    .skills {
+      &__list {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    &__skills {
+      .skills {
+        &-item {
+          &__name {
+            font-size: 14px;
+          }
+
+          &__icon {
+            img {
+              filter: none !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

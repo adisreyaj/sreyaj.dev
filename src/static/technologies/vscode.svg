@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="194" height="194" viewBox="0 0 194 194">
+  <g id="vscode" transform="translate(-38 -632)">
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="97" cy="97" r="97" transform="translate(38 632)" fill="#0877b9"/>
+    <g id="visual-studio-code-1" transform="translate(74.935 659.038)">
+      <path id="Path_95" data-name="Path 95" d="M3.81,256.454s-2.778-2,.556-4.676l7.766-6.945s2.222-2.338,4.572-.3l71.669,54.261v26.019s-.035,4.086-5.278,3.634Z" transform="translate(0 -203.147)" fill="#fff"/>
+      <path id="Path_96" data-name="Path 96" d="M24.128,498.8,5.655,515.595s-1.9,1.412,0,3.935l8.577,7.8s2.037,2.188,5.046-.3l19.584-14.85Z" transform="translate(-1.845 -428.721)" fill="#fff"/>
+      <path id="Path_97" data-name="Path 97" d="M316.7,77.48l33.879-25.869-.22-25.881s-1.447-5.648-6.273-2.708L299,64.053Z" transform="translate(-261.983 -7.262)" fill="#fff"/>
+      <path id="Path_98" data-name="Path 98" d="M689.5,125.336a4.659,4.659,0,0,0,4.352,1.354l26.4-13.01c3.38-2.3,2.905-5.162,2.905-5.162V30.83c0-3.414-3.5-4.6-3.5-4.6L696.776,15.2c-5-3.09-8.276.556-8.276.556s4.213-3.033,6.273,2.708V121.192a4.668,4.668,0,0,1-.451,2.026c-.6,1.215-1.91,2.35-5.047,1.875Z" transform="translate(-606.4 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

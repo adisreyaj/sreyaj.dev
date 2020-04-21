@@ -1,0 +1,168 @@
+/*
+ * File: _header.scss
+ * Project: static-html-webpack-boilerplate
+ * Description:  
+ * File Created: Sunday, 9th February 2020 12:59:52 am
+ * Author: Adithya Sreyaj
+ * -----
+ * Last Modified: Sunday, 9th February 2020 12:59:52 am
+ * Modified By: Adithya Sreyaj<adithya@altorumleren.com>
+ * -----
+ */
+
+.header {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__mobile-menu {
+    display: none;
+    margin-right: -8px;
+  }
+  &.fixed {
+    box-shadow: rgba(0, 6, 14, 0.7) 0px 10px 30px -10px;
+  }
+  .logo {
+    height: 30px;
+    img {
+      height: 30px;
+    }
+  }
+  .menu {
+    z-index: 2;
+    &__container {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inconsolata', monospace;
+      list-style: none;
+      .menu--container__item {
+        display: inline-block;
+        margin: 0 16px;
+        padding: 26px 0;
+        transform: translateY(-70px);
+        font-size: 1rem;
+        cursor: pointer;
+        text-transform: capitalize;
+        letter-spacing: 1.5px;
+        font-weight: 400;
+        color: #fff;
+        opacity: 0;
+        span {
+          font-size: 14px;
+          color: $accent;
+          margin-right: 2px;
+          &::after {
+            content: '.';
+            position: relative;
+          }
+        }
+        &:hover {
+          color: $accent;
+        }
+        &.resume-button {
+          margin-left: 24px;
+          .download-resume {
+            cursor: pointer;
+            background-color: transparent;
+            border: 2px solid $accent;
+            border-radius: 4px;
+            color: $accent;
+            padding: 8px 16px;
+          }
+        }
+        &:nth-child(2) {
+          animation-delay: 0.3s;
+        }
+        &:nth-child(3) {
+          animation-delay: 0.6s;
+        }
+        &:nth-child(4) {
+          animation-delay: 0.9s;
+        }
+        &:nth-child(5) {
+          animation-delay: 1.2s;
+        }
+      }
+    }
+    &.active {
+      .menu__overlay {
+        background: $secondary;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        z-index: 5;
+      }
+      .menu__container {
+        z-index: 6;
+      }
+    }
+  }
+}
+
+.hamburger-menu {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.hamRotate.active {
+  transform: rotate(45deg);
+}
+
+.line {
+  fill: none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke: #fff;
+  stroke-width: 5.5;
+  stroke-linecap: round;
+}
+.hamburger-menu .top {
+  stroke-dasharray: 40 139;
+}
+.hamburger-menu .bottom {
+  stroke-dasharray: 40 180;
+}
+.hamburger-menu.active .top {
+  stroke-dashoffset: -98px;
+}
+.hamburger-menu.active .bottom {
+  stroke-dashoffset: -138px;
+}
+
+@media screen and (max-width: 960px) {
+  .header {
+    padding: 0 20px;
+    &__mobile-menu {
+      z-index: 10;
+      display: block;
+      cursor: pointer;
+      svg {
+        height: 46px;
+      }
+    }
+    .menu {
+      display: none;
+      position: fixed;
+      left: 0;
+      right: 0;
+      width: 100vw;
+      height: 100vh;
+      top: 0;
+      bottom: 0;
+      &.active {
+        display: flex;
+      }
+      justify-content: center;
+      &__container {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+}

@@ -1,0 +1,81 @@
+/*
+ * File: _animations.scss
+ * Project: static-html-webpack-boilerplate
+ * Description:  
+ * File Created: Sunday, 9th February 2020 1:10:53 am
+ * Author: Adithya Sreyaj
+ * -----
+ * Last Modified: Sunday, 9th February 2020 1:10:53 am
+ * Modified By: Adithya Sreyaj<adithya@altorumleren.com>
+ * -----
+ */
+
+.slide-in {
+  animation-name: headerSlideIn;
+  animation-iteration-count: 1;
+  animation-duration: 0.8s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.62, 0.98);
+}
+
+.fade-in {
+  animation-name: fadeIn;
+  animation-duration: 0.8s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.62, 0.98);
+}
+
+.slide-up {
+  animation-name: slideUp;
+  animation-duration: 0.8s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.62, 0.98);
+}
+
+@keyframes headerSlideIn {
+  0% {
+    transform: translateY(-70px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes drawLine {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: calc(100vh - 100vh * 75 / 100);
+  }
+}
+
+@keyframes scrollTop {
+  0% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

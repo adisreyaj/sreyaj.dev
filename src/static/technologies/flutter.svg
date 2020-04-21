@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="194" height="194" viewBox="0 0 194 194">
+  <g id="flutter" transform="translate(-59 -792.001)">
+    <circle id="Ellipse_10" data-name="Ellipse 10" cx="97" cy="97" r="97" transform="translate(59 792.001)" fill="#cffffa"/>
+    <g id="flutter-logo" transform="translate(110.71 841.78)">
+      <path id="Path_52" data-name="Path 52" d="M48.75,95.97,22.84,70.23,37.16,55.66,77.55,95.97Z" fill="#02539a" fill-rule="evenodd"/>
+      <g id="Group_44" data-name="Group 44">
+        <path id="Path_53" data-name="Path 53" d="M22.52,70.25,48.2,44.57H77.07L37.12,84.52Z" fill="rgba(69,209,253,0.85)" fill-rule="evenodd"/>
+        <path id="Path_54" data-name="Path 54" d="M.29,47.85,14.87,62.42,77.07.22H48.05Z" fill="#45d1fd" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

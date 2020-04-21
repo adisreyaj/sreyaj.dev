@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="194" height="194" viewBox="0 0 194 194">
+  <g id="mongodb" transform="translate(-46 -895)">
+    <g id="Group_72" data-name="Group 72" transform="translate(46 895)">
+      <circle id="Ellipse_13" data-name="Ellipse 13" cx="97" cy="97" r="97" fill="#442d22"/>
+    </g>
+    <g id="Group_73" data-name="Group 73" transform="translate(115 930)">
+      <path id="Path_86" data-name="Path 86" d="M33.555,126.577l-3.3-1.129s.4-16.843-5.642-18.052c-4.029-4.675.646-198.26,15.153-.645,0,0-5,2.5-5.884,6.77-.968,4.191-.323,13.056-.323,13.056Z" transform="translate(-2.941 -2.463)" fill="#a6a385" fill-rule="evenodd"/>
+      <path id="Path_88" data-name="Path 88" d="M36.348,108.084S65.281,89.064,58.51,49.492C51.983,20.721,36.59,11.292,34.9,7.665A40.685,40.685,0,0,1,31.27.573L32.48,80.6c0,.081-2.5,24.5,3.869,27.484" transform="translate(-3.961 -0.25)" fill="#499d4a" fill-rule="evenodd"/>
+      <path id="Path_90" data-name="Path 90" d="M25.618,109.084S-1.543,90.548.069,57.908C1.6,25.268,20.781,9.23,24.489,6.329c2.418-2.579,2.5-3.547,2.66-6.126,1.693,3.627,1.37,54.24,1.611,60.2C29.485,83.375,27.471,104.733,25.618,109.084Z" transform="translate(0 -0.203)" fill="#58aa50" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+/*
+ * File: _footer.scss
+ * Project: static-html-webpack-boilerplate
+ * Description:  
+ * File Created: Sunday, 9th February 2020 1:50:11 pm
+ * Author: Adithya Sreyaj
+ * -----
+ * Last Modified: Sunday, 9th February 2020 1:50:11 pm
+ * Modified By: Adithya Sreyaj<adithya@altorumleren.com>
+ * -----
+ */
+
+.footer {
+  height: 70px;
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__copyright {
+    color: $secondary-text;
+  }
+  &__copyright-name {
+    color: $accent;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    flex-flow: column wrap;
+  }
+}

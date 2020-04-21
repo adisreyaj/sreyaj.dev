@@ -1,0 +1,93 @@
+/*
+ * File: _hero.scss
+ * Project: static-html-webpack-boilerplate
+ * Description:  
+ * File Created: Sunday, 9th February 2020 1:13:40 am
+ * Author: Adithya Sreyaj
+ * -----
+ * Last Modified: Sunday, 9th February 2020 1:13:41 am
+ * Modified By: Adithya Sreyaj<adithya@altorumleren.com>
+ * -----
+ */
+
+.hero {
+  max-height: 1000px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 64px;
+  &__greeting {
+    opacity: 0;
+    animation-delay: 0.8s;
+    color: $secondary-text;
+  }
+  &__texts {
+    position: relative;
+  }
+  &__name {
+    color: $accent;
+    opacity: 0;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    margin-bottom: 4px;
+    animation-delay: 1s;
+  }
+  &__name-overlay {
+    opacity: 0;
+    animation-delay: 1.3s;
+    color: rgba($color: #fff, $alpha: 0.05);
+    font-size: 4rem;
+    letter-spacing: 3px;
+    position: absolute;
+    top: -11px;
+    left: 6px;
+  }
+  &__subtitle {
+    opacity: 0;
+    animation-delay: 1.5s;
+    font-size: 2.3rem;
+    letter-spacing: 3px;
+    margin-top: 4px;
+    color: rgba($color: #fff, $alpha: 0.5);
+  }
+  &__about {
+    max-width: 500px;
+    line-height: 1.5;
+    opacity: 0;
+    animation-delay: 1.8s;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 1.5px;
+  }
+  &__cta {
+    opacity: 0;
+    animation-delay: 2.2s;
+    margin-top: 64px;
+  }
+  &-cta__button {
+    padding: 14px 30px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+}
+@media screen and (max-width: 600px) {
+  .hero {
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+    &__name {
+      font-size: 2.5rem;
+      margin-bottom: 16px;
+    }
+    &__subtitle {
+      font-size: 1.5rem;
+    }
+
+    &__name-overlay {
+      display: none;
+    }
+  }
+}
