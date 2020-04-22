@@ -5,17 +5,20 @@
  * File Created: Sunday, 9th February 2020 1:13:40 am
  * Author: Adithya Sreyaj
  * -----
- * Last Modified: Sunday, 9th February 2020 1:13:41 am
- * Modified By: Adithya Sreyaj<adithya@altorumleren.com>
+ * Last Modified: Wednesday, 22nd April 2020 9:19:33 pm
+ * Modified By: Adithya Sreyaj<adi.sreyaj@gmail.com>
  * -----
  */
 
 .hero {
   max-height: 1000px;
+  min-height: 80vh;
   position: relative;
   height: 100%;
   width: 100%;
-  display: block;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
   box-sizing: border-box;
   margin-bottom: 64px;
   &__greeting {
